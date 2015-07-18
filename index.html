@@ -1,12 +1,88 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Bernard Kolobara</title>
+    <title>Bernard Kolobara</title>
+    <meta name="description" content="Personal hompage from Bernard Kolobara. A hacker and artist." />
+
+    <style>
+        body {
+            background-color: white;
+            color: #222222;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-weight: 100;
+            letter-spacing: 1px;
+            font-size: 25px;
+        }
+        a, a:visited {
+            color: cornflowerblue;
+            text-decoration: none;
+        }
+        #picture {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 50%;
+            background: url("me.jpg");
+            background-size: 100%;
+            box-shadow: inset 0 0 10px #333333;
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 85%);
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 85%);
+        }
+        .content {
+            max-width: 650px;
+            margin: auto;
+        }
+        a.icon {
+            font-size: 60px;
+            padding: 45px;
+        }
+        /* Mobile */
+        @media only screen and (max-device-width: 480px) {
+            #picture {
+                width: 500px;
+                height: 500px;
+            }
+            p {
+                font-size: 60px;
+                margin-top: 0;
+            }
+            .content {
+                max-width: 800px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 </head>
 <body>
-    <p>
-        Sorry, I didn't have time to build this site yet :(<br/>
-        Github: <a href="https://github.com/bkolobara">https://github.com/bkolobara</a><br />
-        Email: bernard.kolobara@gmail.com
-    </p>
+    <div class="content">
+        <div id="picture"></div>
+        <p>Hi, I'm Bernard!</p>
+        <p>
+            I'm writing software for the <a href="http://atlas.ch/">ATLAS experiment</a> at
+            <a href="http://home.web.cern.ch/">CERN</a>. If you would like to talk, drop me an email!
+            <br /><br />
+            <a class="icon" href="mailto:me@kolobara.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+            <a class="icon" href="https://github.com/bkolobara" target="_blank"><i class="fa fa-github-alt"></i></a>
+            <a class="icon" href="https://twitter.com/bkolobara" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="icon" href="https://www.linkedin.com/profile/view?id=68177741" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+    </div>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//analytics.jasam.ninja/";
+            _paq.push(['setTrackerUrl', u+'js']);
+            _paq.push(['setSiteId', 1]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <noscript><p><img src="//analytics.jasam.ninja/js?idsite=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
 </body>
 </html>

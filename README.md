@@ -1,4 +1,3 @@
-My personal website: [bkolobara.info]
+My personal website: [kolobara.com]
 
-[bkolobara.info]: http://bkolobara.info
-
+[kolobara.com]: http://kolobara.com
