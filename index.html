@@ -3,6 +3,7 @@
 <head>
     <title>Bernard Kolobara</title>
     <meta name="description" content="Personal hompage from Bernard Kolobara. A hacker and artist." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/jpg" href="me.jpg">
     <style>
         body {
@@ -33,28 +34,33 @@
             max-width: 650px;
             margin: auto;
         }
+        p {
+            padding: 0 5px;
+        }
+        div.icons {
+            display: flex;
+            justify-content: center;
+        }
         a.icon {
             font-size: 60px;
-            padding: 45px;
+            padding: 30px;
         }
-        /* Mobile
+        /* Mobile  */
         @media only screen and (max-device-width: 480px) {
             #picture {
-                width: 100px;
-                height: 100px;
+                width: 200px;
+                height: 200px;
+                margin-top: 30px;
             }
             p {
-                font-size: 12px;
-                margin-top: 0;
-            }
-            .content {
-                max-width: 480px;
+                font-size: 22px;
             }
             a.icon {
-                font-size: 18px;
+                font-size: 45px;
+                padding: 10px;
             }
         }
-        */
+
     </style>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 </head>
@@ -65,11 +71,12 @@
         <p>
             I'm writing software for the <a href="http://atlas.ch/">ATLAS experiment</a> at
             <a href="http://home.web.cern.ch/">CERN</a>. If you would like to talk, drop me an email!
-            <br /><br />
-            <a class="icon" href="mailto:me@kolobara.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
-            <a class="icon" href="https://github.com/bkolobara" target="_blank"><i class="fa fa-github-alt"></i></a>
-            <a class="icon" href="https://twitter.com/bkolobara" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a class="icon" href="https://www.linkedin.com/profile/view?id=68177741" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <div class="icons">
+                <a class="icon" href="mailto:me@kolobara.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+                <a class="icon" href="https://github.com/bkolobara" target="_blank"><i class="fa fa-github-alt"></i></a>
+                <a class="icon" href="https://twitter.com/bkolobara" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="icon" href="https://www.linkedin.com/profile/view?id=68177741" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
         </p>
     </div>
 
