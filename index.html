@@ -12,12 +12,6 @@
       "jobTitle": "Software Developer",
       "name": "Bernard Kolobara",
       "url": "http://kolobara.com",
-      "employee":
-      {
-        "@type": "Organization",
-        "name": "CERN",
-        "url": "http://home.web.cern.ch/"
-      }
     }
     </script>
 
@@ -30,7 +24,7 @@
             font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
             font-weight: 100;
             letter-spacing: 1px;
-            font-size: 25px;
+            font-size: 22px;
         }
         a, a:visited {
             color: cornflowerblue;
@@ -71,11 +65,15 @@
                 margin-top: 30px;
             }
             p {
-                font-size: 22px;
+                font-size: 20px;
             }
             a.icon {
                 font-size: 45px;
                 padding: 10px;
+            }
+            .content {
+                max-width: 450px;
+                margin: auto;
             }
         }
 
@@ -85,34 +83,45 @@
 <body>
     <div class="content">
         <div id="picture"></div>
-        <p>Hi, I'm Bernard!</p>
         <p>
-            I'm writing software for the <a href="http://atlas.ch/">ATLAS experiment</a> at
-            <a href="http://home.web.cern.ch/">CERN</a>. If you would like to talk, drop me an email!
+            Hi, I'm Bernard!
+        </p>
+        <p>
+            I'm an independent consultant, specialized in providing complex web solutions.
+            If you are looking for a complete web application or just need help with
+            your React.js frontend drop me an email!
+        </p>
+        <p>
+            Previously, I made the browser more awesome at
+            <a href="https://cliqz.com/en/" target="_blank">cliqz</a>
+            and wrote software to push boundaries of science for the
+            <a href="http://atlas.ch/" target="_blank">
+            ATLAS experiment</a> at <a href="http://home.web.cern.ch/" target="_blank">CERN</a>.
+        </p>
+        <p>
+            If you are interested in reading more of my thoughts check out my
+            <a href="https://blog.kolobara.com" target="_blank">blog</a>.
+        </p>
+        <p>
+             
             <div class="icons">
-                <a class="icon" href="mailto:me@kolobara.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
-                <a class="icon" href="https://github.com/bkolobara" target="_blank"><i class="fa fa-github-alt"></i></a>
-                <a class="icon" href="https://twitter.com/bkolobara" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a class="icon" href="https://www.linkedin.com/profile/view?id=68177741" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="icon" href="mailto:me@kolobara.com" target="_blank">
+                    <i class="fa fa-envelope-o"></i>
+                </a>
+                <a class="icon" href="https://github.com/bkolobara" target="_blank">
+                    <i class="fa fa-github-alt"></i>
+                </a>
+                <a class="icon" href="https://twitter.com/bkolobara" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="icon" href="https://www.linkedin.com/in/bkolobara" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="icon" href="Bernard-Kolobara-CV.pdf" target="_blank">
+                    <i class="fa fa-id-card-o"></i>
+                </a>
             </div>
         </p>
     </div>
-
-    <!-- Piwik -->
-    <script type="text/javascript">
-        var _paq = _paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="//analytics.jasam.ninja/";
-            _paq.push(['setDocumentTitle', document.domain + "/" + document.title]);
-            _paq.push(['setTrackerUrl', u+'js/']);
-            _paq.push(['setSiteId', 1]);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'jscdn/'; s.parentNode.insertBefore(g,s);
-        })();
-    </script>
-    <noscript><p><img src="//analytics.jasam.ninja/js/?idsite=1" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
 </body>
 </html>

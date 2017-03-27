@@ -1,0 +1,1 @@
+s3cmd sync --delete-removed --exclude '.git/*' --exclude '.DS_Store' --exclude 'deploy.sh' --exclude '.gitignore' --exclude 'README.md' --acl-public . s3://kolobara.com
