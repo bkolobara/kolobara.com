@@ -1,0 +1,3 @@
+[submodule "lunatic-page"]
+	path = lunatic-page
+	url = git@github.com:luisanogueira/lunatic-page.git
